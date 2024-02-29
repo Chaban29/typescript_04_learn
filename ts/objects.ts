@@ -32,6 +32,7 @@ interface Car {
   color: string;
   isDiesel: boolean | string;
   wheels: number;
+  carParams?: string[] | { country: string; price: number };
 }
 
 type myCar = Readonly<Car>;
@@ -42,6 +43,17 @@ const userCarParams: myCar = {
   color: 'Black&White',
   isDiesel: false,
   wheels: 4,
+  carParams: {
+    country: 'USA',
+    price: 100000,
+  },
 };
 
-
+const homePet: {
+  name: string;
+  legs?: number | string;
+  isCat: boolean;
+} = {
+  name: 'Harmony',
+  isCat: true,
+};
