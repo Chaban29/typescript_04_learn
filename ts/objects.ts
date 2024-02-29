@@ -12,17 +12,17 @@ const personalInformation: {
 
 // second variant to create object with TS
 
-type User = Partial<{
-  name: string;
-  age: number;
-  hasComputer: boolean;
-}>;
+// type User = Partial<{
+//   name: string;
+//   age: number;
+//   hasComputer: boolean;
+// }>;
 
-const userInfo: User = {
-  name: 'Roman',
-  age: 23,
-  hasComputer: true,
-};
+// const userInfo: User = {
+//   name: 'Roman',
+//   age: 23,
+//   hasComputer: true,
+// };
 
 // third variant to create object with TS
 

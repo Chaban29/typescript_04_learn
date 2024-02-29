@@ -29,3 +29,10 @@ const checkCurrentUserAge = (isAdult: number): number | null => {
 };
 
 const result = checkCurrentUserAge(isAdult) as unknown as boolean;
+
+
+let petAge: number = 10;
+
+let newPetAge = petAge as unknown as boolean;
+
+newPetAge = true;

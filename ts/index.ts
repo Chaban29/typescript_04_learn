@@ -10,3 +10,12 @@ const getUsersFromApi = async (users: string): Promise<any> => {
 };
 
 console.log(getUsersFromApi(users));
+
+type Config = {
+  status: string;
+};
+type Data = {
+  data: number;
+};
+
+
